@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [gmail]">
+  <test thread-count="5" name="send mail(failed)">
+    <parameter name="password" value="ganidhanu03"/>
+    <parameter name="email" value="demo123@gamil.com"/>
+    <classes>
+      <class name="demo.SentMailTestCases">
+        <methods>
+          <include name="Sentmail"/>
+        </methods>
+      </class> <!-- demo.SentMailTestCases -->
+    </classes>
+  </test> <!-- send mail(failed) -->
+</suite> <!-- Failed suite [gmail] -->

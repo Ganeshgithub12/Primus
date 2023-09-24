@@ -1,0 +1,15 @@
+<suite name= "gmail">
+	
+	<test name ="send mail">
+		
+		<parameter name = "email" value = "demo123@gamil.com" ></parameter>
+		<parameter name = "password" value ="ganidhanu03"></parameter>
+		<classes>
+			
+			<class name = "demo.SentMailTestCases"></class>
+		
+		</classes>
+	</test>
+	
+	
+</suite>
